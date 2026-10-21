@@ -45,14 +45,24 @@ Para validar esta hipótesis, el estudio se desglosa en los siguientes hitos est
 
 ## 📂 Estructura del Repositorio
 
-*   `data/`: Datasets originales (`raw`) y procesados (`processed`).
-*   `notebooks/`: 
-    *   `exploratory/`: Análisis individuales por fuente.
-    *   `00_Main_Analysis.ipynb`: **Notebook principal** con la narrativa completa y conclusiones.
-*   `reports/figures/`: Gráficos y visualizaciones exportadas.
-*   `requirements.txt`: Archivo de dependencias para replicar el entorno.
+Todo el proyecto está dentro de la carpeta [`EDA Correlacion del precio de la vivienda respecto al oro/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/):
+
+*   [`data/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/data/): datasets originales (`raw/`) y procesados (`processed/`).
+*   [`notebooks/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/notebooks/):
+    *   [`main/EDA Main.ipynb`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/notebooks/main/EDA%20Main.ipynb): **notebook principal** con la narrativa completa y las conclusiones.
+    *   [`exploratory/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/notebooks/exploratory/): análisis individuales por fuente (IPC, oro, Euríbor, alquiler, compraventas...).
+*   [`reports/figures/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/reports/figures/): gráficos y visualizaciones exportadas.
+*   [`documents/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/documents/): memoria del proyecto y presentación.
+*   [`src/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/src/): recursos gráficos del README (GIF e infografía).
+*   [`requirements.txt`](requirements.txt): dependencias para replicar el entorno.
 
 ---
 
+## ▶️ Cómo reproducirlo
 
-
+```bash
+git clone https://github.com/Eostolozaga/eda-vivienda-valor-refugio-espana.git
+cd eda-vivienda-valor-refugio-espana
+pip install -r requirements.txt
+jupyter notebook "EDA Correlacion del precio de la vivienda respecto al oro/notebooks/main/EDA Main.ipynb"
+```
