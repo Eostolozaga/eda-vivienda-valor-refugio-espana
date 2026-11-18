@@ -1,64 +1,64 @@
-# 🏠 Análisis EDA: La Vivienda en España como Valor Refugio
+# 🏠 EDA: Housing in Spain as a Safe Haven
 
-El objetivo central de este análisis es determinar si el **mercado inmobiliario español** actúa como un activo refugio frente a escenarios de incertidumbre económica, analizando su resiliencia frente a la inflación y otros activos tradicionales.
-
----
-
-## 📋 Descripción del Proyecto
-
-Para validar esta hipótesis, el estudio se desglosa en los siguientes hitos estratégicos:
-
-*   **Capacidad de cobertura (Hedge):** Análisis de la revalorización de la vivienda frente al **IPC** y su correlación histórica con el **oro**.
-*   **Desacople financiero:** Investigación de la resiliencia del precio de venta frente a la subida del **Euríbor**.
-*   **Rentabilidad del alquiler:** Evolución del mercado de arrendamiento como motor independiente del ciclo de venta.
-*   **Brecha de accesibilidad:** Determinación del **"Ratio de Esfuerzo Crítico"** (Salarios vs. Precios).
-*   **Análisis Histórico:** Contraste del ciclo actual frente a la crisis de **2008** para identificar patrones de solvencia.
+The central aim of this analysis is to determine whether the **Spanish housing market** acts as a safe-haven asset in periods of economic uncertainty, by examining how resilient it is to inflation and how it compares with other traditional assets.
 
 ---
 
-## 📊 Visualizaciones Destacadas
+## 📋 Project description
+
+To test this hypothesis, the study is organized around the following milestones:
+
+*   **Hedging capacity:** How housing has appreciated relative to the **CPI (IPC)** and its historical correlation with **gold**.
+*   **Financial decoupling:** Whether sale prices have held up as **Euribor** has risen.
+*   **Rental yield:** How the rental market has evolved as a driver independent of the sales cycle.
+*   **Affordability gap:** The **"critical effort ratio"** (wages versus prices).
+*   **Historical analysis:** How the current cycle compares with the **2008** crisis, in order to identify patterns of solvency.
+
+---
+
+## 📊 Featured visualizations
 
 <p align="center">
-  <img src="EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/src/Gif_Readme.gif" width="100%" alt="Análisis de Vivienda">
+  <img src="EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/src/Gif_Readme.gif" width="100%" alt="Housing analysis">
 </p>
 
-![Infografía Vivienda vs Oro](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/src/Infografia%20EDA%20Vivienda%20como%20valor%20refugio%20en%20España.png)
+![Infographic: housing versus gold](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/src/Infografia%20EDA%20Vivienda%20como%20valor%20refugio%20en%20España.png)
 
 ---
 
-## 🛠️ Stack Tecnológico
+## 🛠️ Technology stack
 
 
-| Herramienta | Uso Principal |
+| Tool | Main use |
 | :--- | :--- |
-| **Python** | Lenguaje base del análisis |
-| **Pandas / NumPy** | Procesamiento y limpieza de datos |
-| **Matplotlib / Seaborn** | Visualización estadística avanzada |
-| **Scikit-Learn** | Modelado de regresión lineal |
-| **Functools** | Optimización de procesos funcionales |
+| **Python** | Core language for the analysis |
+| **Pandas / NumPy** | Data processing and cleaning |
+| **Matplotlib / Seaborn** | Statistical visualization |
+| **Scikit-Learn** | Linear regression modeling |
+| **Functools** | Functional-style utilities |
 
-> **Fuentes de datos:** INE (Instituto Nacional de Estadística), Idealista y portales de datos abiertos.
+> **Data sources:** INE (Instituto Nacional de Estadística, the Spanish National Statistics Institute), Idealista, and open-data portals.
 
 ---
 
 
 
-## 📂 Estructura del Repositorio
+## 📂 Repository layout
 
-Todo el proyecto está dentro de la carpeta [`EDA Correlacion del precio de la vivienda respecto al oro/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/):
+The whole project lives in the folder [`EDA Correlacion del precio de la vivienda respecto al oro/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/):
 
-*   [`data/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/data/): datasets originales (`raw/`) y procesados (`processed/`).
+*   [`data/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/data/): original datasets (`raw/`) and processed datasets (`processed/`).
 *   [`notebooks/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/notebooks/):
-    *   [`main/EDA Main.ipynb`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/notebooks/main/EDA%20Main.ipynb): **notebook principal** con la narrativa completa y las conclusiones.
-    *   [`exploratory/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/notebooks/exploratory/): análisis individuales por fuente (IPC, oro, Euríbor, alquiler, compraventas...).
-*   [`reports/figures/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/reports/figures/): gráficos y visualizaciones exportadas.
-*   [`documents/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/documents/): memoria del proyecto y presentación.
-*   [`src/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/src/): recursos gráficos del README (GIF e infografía).
-*   [`requirements.txt`](requirements.txt): dependencias para replicar el entorno.
+    *   [`main/EDA Main.ipynb`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/notebooks/main/EDA%20Main.ipynb): **main notebook**, with the full narrative and the conclusions.
+    *   [`exploratory/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/notebooks/exploratory/): separate analyses by source (CPI, gold, Euribor, rent, home sales, and others).
+*   [`reports/figures/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/reports/figures/): exported charts and visualizations.
+*   [`documents/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/documents/): project write-up and presentation.
+*   [`src/`](EDA%20Correlacion%20del%20precio%20de%20la%20vivienda%20respecto%20al%20oro/src/): graphics used in the README (GIF and infographic).
+*   [`requirements.txt`](requirements.txt): dependencies needed to reproduce the environment.
 
 ---
 
-## ▶️ Cómo reproducirlo
+## ▶️ How to reproduce it
 
 ```bash
 git clone https://github.com/Eostolozaga/eda-vivienda-valor-refugio-espana.git
